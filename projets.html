@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="css/index_style.css">
+	<script src="js/modernizr.js"></script>
+	<script src="js/main.js"></script>
+
+	<title>Projets</title>
+</head>
+
+<body>
+	<div class="cd-fold-content">
+		<aside class="text-light justify-content-center row bg-projets rounded p-3 mb-4">
+			<i class="fas fa-graduation fa-2x"></i>
+			<h2 class='ml-4 mb-0'>PROJETS</h2>
+		</aside>
+
+		<aside class="p-1 p-sm-4">
+
+			<div id="accordion">
+
+				<!-- Portfolio perso -->
+				<div class="card">
+					<div class="card-header">
+						<div class="row">
+							<img class='logo' src="sources/icone.ico" alt="logo" />
+							<button class="btn text-left" data-toggle="collapse" data-target="#devPortfolio" aria-expanded="true" aria-controls="devPortfolio">
+								<h5>Portfolio personnel</h5>
+							</button>
+						</div>
+					</div>
+
+					<div id="devPortfolio" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+						<div class="card-body">
+							<ul class="lstProjets">
+								<li> <a href="#" class="text-info" target="_blank">Document projet</a> </li>
+								<li>Manipulation d'un template<a href="https://github.com/CodyHouse/3d-folding-panel" class="font-italic text-secondary"> (Source)</a></li>
+								<li>Languages uilisés : Html, Css(Scss, Bootstrap)</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<!-- Write Here -->
+				<div class="card">
+					<div class="card-header">
+						<div class="row">
+							<img class='logo' src="sources/wh.ico" alt="logo" />
+							<button class="btn text-left" data-toggle="collapse" data-target="#writeHere" aria-expanded="true" aria-controls="writeHere">
+								<h5>Write Here</h5>
+							</button>
+						</div>
+					</div>
+
+					<div id="writeHere" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+						<div class="card-body">
+							<span>Application responsive, liée à un compte utilisateur, destinée à prendre des notes</span>
+							<ul class="lstProjets">
+								<li> <a href="#" class="text-info" target="_blank">Document projet</a> </li>
+								<li>Front-end : Html, Css(Bootstrap), JavaScript(JQuery)</li>
+								<li>Back-end : JavaScript(Node.Js), MySQL</li>
+								<li>Gestion des erreurs côté serveur</li>
+								<li>Authentification et inscription</li>
+								<li>L'utilisateur peut créer, lire, éditer et supprimer ses notes personnelles</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<!-- Portfolio Game Designer -->
+				<div class="card">
+					<div class="card-header">
+						<div class="row">
+							<img class='logo' src="sources/iconee.ico" alt="logo" />
+							<button class="btn text-left" data-toggle="collapse" data-target="#gdPortfolio" aria-expanded="true" aria-controls="gdPortfolio">
+								<h5>Portfolio Game Designer</h5>
+							</button>
+						</div>
+					</div>
+
+					<div id="gdPortfolio" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+						<div class="card-body">
+							<span>Portfolio de Pierrick Petitdemange, Game Designer</span>
+							<ul class="lstProjets">
+								<li> <a href="#" class="text-info" target="_blank">Document projet</a> </li>
+								<li>Front-end : Html, Css(Bootstrap)</li>
+								<li>Utilisation de "Animate.css"</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<!-- Jeu de role | Histoire dont vous êtes le héros -->
+				<div class="card">
+					<div class="card-header">
+						<div class="row">
+							<img class='logo' src="sources/faviconjdr.ico" alt="logo" />
+							<button class="btn text-left" data-toggle="collapse" data-target="#jdr" aria-expanded="true" aria-controls="jdr">
+								<h5>Jeu de role / Livre-jeu</h5>
+							</button>
+						</div>
+					</div>
+
+					<div id="jdr" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+						<div class="card-body">
+							<span>Nouvelle basée sur une histoire fantasie de ma création.</span><br>
+							<a href="#" class="text-info" target="_blank">Document projet</a><br>
+							<p class="mt-4">
+								<b>Pour l'application :</b>
+								<ul class='lstProjets'>
+									<li>Front-end : Html, Css(Bootstrap), JavaScript(JQuery)</li>
+									<li>Back-end : JavaScript(Node.Js), MySQL</li>
+									<li>Gestion des erreurs côté serveur</li>
+									<li>Mise en place de la structure des deux pages</li>
+									<li>Création de la base de données</li>
+									<li>Connexion de la base de données avec l'application avec Node.js</li>
+									<li>Création des Data Access Object et des Classes</li>
+									<li>Inscription et Connexion</li>
+									<li>Modification de compte</li>
+									<li>Création, Modification, Suppression et Récupération d'une partie</li>
+									<li>Création et Récupération d'un personnage lié à une partie</li>
+								</ul>
+
+								<br><b>En jeu :</b>
+								<ul class='lstProjets'>
+									<li>Récupération du paragraphe selectionné</li>
+									<li>Récupération des liens liés au paragraphe selectionné</li>
+									<li>Sauvegarde du paragraphe courant et des caractéristiques du personnage en quittant le "mode partie"</li>
+								</ul>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</aside>
+	</div>
+</body>
+
+</html>
