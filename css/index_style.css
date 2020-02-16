@@ -1,6 +1,8 @@
 body {
 	background-color: #F1FAFF;
 	font-family: sans-serif;
+	/* margin-top: 50vh; */
+	/* transform: translateY(-50%); */
 }
 
 @font-face {
@@ -663,7 +665,7 @@ folding panel
 .lstCompetences li,
 .lstExperiences li,
 .lstFormations span,
-.lstProjets li{
+.lstProjets li {
 	margin-left: 2em;
 }
 
@@ -682,7 +684,7 @@ folding panel
 	font-size: 1rem;
 }
 
-.lstFormations a:hover, .lstProjets a:hover  {
+.lstFormations a:hover, .lstProjets a:hover {
 	text-decoration: underline;
 }
 
@@ -697,8 +699,15 @@ folding panel
 	height: 1.5em;
 }
 
-.lstContact li{
+.lstContact li {
 	list-style: none;
 	margin-top: 1.25em;
-	/* width: 50%; */
+}
+
+.bg-clear {
+	background-color: lightgrey;
+}
+
+.carousel-control-next, .carousel-control-prev {
+	opacity: 0.2;
 }

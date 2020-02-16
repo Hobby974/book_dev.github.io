@@ -1,10 +1,13 @@
-$(document).ready(function($) {
-	var gallery = $('.cd-gallery'), foldingPanel = $('.cd-folding-panel'), mainContent = $('.cd-main');
+$(document).ready(function() {
+	var gallery = $('.cd-gallery'),
+		foldingPanel = $('.cd-folding-panel'),
+		mainContent = $('.cd-main');
 
 	/* open folding content */
 	gallery.on('click', 'a', function(event) {
 		event.preventDefault();
 		openItemInfo($(this).attr('href'));
+
 	});
 
 	/* close folding content */
